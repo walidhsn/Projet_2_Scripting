@@ -1,0 +1,10 @@
+--->> To install 'YAD' in Centos.7 Connect your OS to the internet Network (in the top right icon in ur OS) :
+
+1- sudo -i
+2- rpm --import http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro 
+3- yum -y install epel-release && rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+4- yum repolist
+5- yum --enablerepo=nux-dextop install yad
+
+Enjoy...
+
